@@ -6,9 +6,11 @@ int main()
     int age = 19;
     double gpa = 5.6;
     char grade = 'A';
-    printf("%p", &age);
+    printf("age: %p\ngpa: %p\ngrade %p", &age, &gpa, &grade);
 
     return 0;
 }
 
-// output = 0x305acd678
+// age : 0x304813678
+// gpa : 0x304813670
+// grade 0x30481366f
