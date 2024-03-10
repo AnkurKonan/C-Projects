@@ -13,3 +13,17 @@ int main()
     printf("Age memory address: %p\n", &age);
     return 0;
 }
+
+//Derefrencing pointer
+
+// #include <stdio.h>
+// #include <stdlib.h>
+// #include <string.h>
+// int main()
+// {
+//     int age = 19;
+//     int *pAge = &age;
+
+//     printf("%d", *&*&age);
+//     return 0;
+// }
