@@ -38,3 +38,14 @@ int main() {
   printf("After swap Value of var1 and var2 is: %d, %d", a, b);
   return 0;
 }
+ //pass by value
+void func(int a, int b) {
+  a += b;
+  printf("In func a = %d b = %d\n", a, b);
+}
+int main(void) {
+  int c = 5, d = 7;
+  func(c, d);
+  printf("In main c = %d d = %d\n", c, d);
+  return 0;
+}
