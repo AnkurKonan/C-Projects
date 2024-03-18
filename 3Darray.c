@@ -10,3 +10,9 @@ int main() {
     }
   }
 }
+
+int main() {
+  int a[][2][2] = {{3, 7}, {8, 9}};
+  printf("%lu", sizeof(a));
+  getchar();
+}
